@@ -1,0 +1,126 @@
+@font-face {
+    font-family: font_one;
+    src: url(../fonts/TitilliumWeb-Light.ttf);
+}
+@font-face {
+    font-family: font_two;
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    color: #34495e;
+    font-family: font_two;
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: font_one;
+}
+div, p {
+    font-family: font_two;
+    margin: 0px;
+}
+
+/* Utilities */
+.font-1 { font-family: font_one; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-green { color: #2ecc71; }
+.text-red { color: #e74c3c; }
+.fullwidth { width: 100%; }
+.fullheight { height: 100%; }
+.bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*  background-image: url();        */
+}
+.bg-contain {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+/*  background-image: url();        */
+}
+.marg-top-0 {margin-top: 0px;}
+.marg-top-50 {margin-top: 50px;}
+.marg-top-100 {margin-top: 100px;}
+.marg-bottom-20 {margin-bottom: 20px;}
+.marg-bottom-50 {margin-bottom: 50px;}
+.marg-bottom-100 {margin-bottom: 100px;}
+
+.padd-top-25 {padding-top: 25px;}
+.padd-top-50 {padding-top: 50px;}
+.padd-bottom-25 {padding-bottom: 25px;}
+.padd-bottom-50 {padding-bottom: 50px;}
+.animate {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.box-shadow {
+	-webkit-box-shadow: 0 0 50px 0 #858585;
+	box-shadow: 0 0 50px 0 #858585;
+}
+.zoom-on-hover:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.p-col-2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+.font-1-3 {
+    font-size: 1.3em;
+}
+
+.navbar.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+}
+.home-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../images/dyadic.png);
+}
+.logo {
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+}
+.dyadic-home-logo {
+    width: auto;
+    height: 200px;
+}
+footer {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #757575;
+}
+footer a {
+    color: rgb(255,171,64);
+}
+.dyadic-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.8em;
+}
+#dyadic-gallery {
+    max-width: 800px;
+    margin: 0px auto;
+}
+#dyadic-trailer {
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+}
+#dyadic-download-link {
+    margin-top: 5px;
+}
