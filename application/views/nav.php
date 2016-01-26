@@ -25,7 +25,7 @@
 					</ul>
 				</li>
                 <li><a href="<?php echo base_url('devlog'); ?>">DEVLOG</a></li>
-                <li><a href="<?php echo base_url('ourteam'); ?>">OUR TEAM</a></li>
+                <li><a href="<?php echo base_url('our_team'); ?>">OUR TEAM</a></li>
                 <li><a href="<?php echo base_url('contact'); ?>">CONTACT</a></li>
                 <li><a href="<?php echo base_url('admin'); ?>"><i class="fa fa-user"></i></a>
 			</ul>

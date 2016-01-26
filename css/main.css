@@ -44,12 +44,14 @@ div, p {
 /*  background-image: url();        */
 }
 .marg-top-0 {margin-top: 0px;}
+.marg-top-25 {margin-top: 25px;}
 .marg-top-50 {margin-top: 50px;}
 .marg-top-100 {margin-top: 100px;}
 .marg-bottom-20 {margin-bottom: 20px;}
 .marg-bottom-50 {margin-bottom: 50px;}
 .marg-bottom-100 {margin-bottom: 100px;}
 
+.padd-0 {padding: 0px;}
 .padd-top-25 {padding-top: 25px;}
 .padd-top-50 {padding-top: 50px;}
 .padd-bottom-25 {padding-bottom: 25px;}
@@ -80,6 +82,9 @@ div, p {
 .font-1-3 {
     font-size: 1.3em;
 }
+.border {
+    border: 1px solid #ccc;
+}
 
 .navbar.navbar-default {
     background-color: rgba(255, 255, 255, 1);
@@ -103,6 +108,7 @@ footer {
     color: #fff;
     padding: 10px 30px;
     background-color: #757575;
+    margin-top: 40px;
 }
 footer a {
     color: rgb(255,171,64);
@@ -123,4 +129,18 @@ footer a {
 }
 #dyadic-download-link {
     margin-top: 5px;
+}
+.container.our-team .row {
+    padding: 0px;
+}
+.container.our-team .row div {
+    padding: 7px;
+}
+.profile-pict {
+    margin: 0px auto;
+    height: 150px;
+    width: 150px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
 }
