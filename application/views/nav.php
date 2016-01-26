@@ -27,10 +27,17 @@
                 <li><a href="<?php echo base_url('devlog'); ?>">DEVLOG</a></li>
                 <li><a href="<?php echo base_url('our_team'); ?>">OUR TEAM</a></li>
                 <li><a href="<?php echo base_url('contact'); ?>">CONTACT</a></li>
-                <li><a href="<?php echo base_url('admin'); ?>"><i class="fa fa-user"></i></a>
+                <li><a href="" id="login-link"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;</a> </li>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container-fluid -->
 </nav>
+<div id="admin-login-form" class="animate">
+    <form action="<?php echo base_url('admin/login'); ?>" method="post">
+        <input type="text" class="form-control" placeholder="Username" required />
+        <input type="password" class="form-control" placeholder="Password" required />
+        <input type="submit" class="btn btn-primary fullwidth" value="Submit">
+    </form>
+</div>

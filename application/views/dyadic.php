@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-            <img class="marg-top-50 marg-bottom-20" src="<?php echo base_url('images/dyadic_banner.png'); ?>" alt="Daydic" style="width: 100%; max-width: 500px;" />
+            <img class="marg-top-50 marg-bottom-20" src="<?php echo base_url('images/dyadic_banner.png'); ?>" alt="Daydic" style="width: 100%; max-width: 700px;" />
             <h4>Demo Available on Windows <i class="fa fa-windows"></i></h4>
             <h2 id="dyadic-download-link">
                 <a href="http://handsomedragongames.com/dyadicSrc/data/dyadic.demo.windows.zip" download target="_blank">
@@ -89,6 +89,41 @@
             <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">
                 <img src="<?php echo base_url('images/greenlight.png'); ?>" alt="Green light page" class="animate zoom-on-hover" style="width: 200px;"/>
             </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-warning">
+                <div class="panel-heading text-center"><h3 class="marg-0">Minimum requirements</h3></div>
+                <div class="panel-body">
+                    <table class="min-req fullwidth light-font">
+                        <tr>
+                            <td>OS</td>
+                            <td>: Windows 7</td>
+                        </tr>
+                        <tr>
+                            <td>CPU</td>
+                            <td>: 2.4Ghz Intel Core 2 Duo or equivalent</td>
+                        </tr>
+                        <tr>
+                            <td>GPU</td>
+                            <td>: Nvidia 260 GTS or Radeon HD 4850</td>
+                        </tr>
+                        <tr>
+                            <td>VRAM</td>
+                            <td>: 512 MB</td>
+                        </tr>
+                        <tr>
+                            <td>HDD</td>
+                            <td>: 1 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Memory</td>
+                            <td>: 4 GB RAM</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </div>

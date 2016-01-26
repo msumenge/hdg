@@ -1,7 +1,7 @@
 <div class="container our-team">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="text-center">Our Team</h2>
+            <h1 class="text-center">Our Team</h1>
         </div>
     </div>
     <div class="row">

@@ -43,13 +43,16 @@ div, p {
     background-position: center;
 /*  background-image: url();        */
 }
+.marg-0 {margin: 0px;}
 .marg-top-0 {margin-top: 0px;}
 .marg-top-15 {margin-top: 15px;}
 .marg-top-25 {margin-top: 25px;}
 .marg-top-50 {margin-top: 50px;}
+.marg-top-75 {margin-top: 75px;}
 .marg-top-100 {margin-top: 100px;}
 .marg-bottom-20 {margin-bottom: 20px;}
 .marg-bottom-50 {margin-bottom: 50px;}
+.marg-bottom-75 {margin-bottom: 75px;}
 .marg-bottom-100 {margin-bottom: 100px;}
 
 .padd-0 {padding: 0px;}
@@ -97,7 +100,8 @@ div, p {
     background-image: url(../images/dyadic.png);
 }
 .logo {
-    width: 50%;
+    width: 100%;
+    max-width: 570px;
     height: auto;
     margin-top: 40px;
 }
@@ -109,7 +113,7 @@ footer {
     color: #fff;
     padding: 10px 30px;
     background-color: #757575;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 footer a {
     color: rgb(255,171,64);
@@ -145,3 +149,105 @@ footer a {
     -moz-border-radius: 75px;
     border-radius: 75px;
 }
+.blog-container {
+    background-color: #f0f4f5;
+    padding: 10px 20px 60px 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.blog-container h2{
+    margin: 15px 0px 25px 0px;
+}
+.blog-container div{
+    font-size: 1.15em;
+}
+.blog-container div div.align{
+    text-align: center;
+    margin-top: 30px;
+}
+.blog-container div div.align img{
+    margin-bottom: 10px;
+}
+.blog-container div div.align i{
+    font-size: .9em;
+    font-weight: bold;
+}
+.time-posted{
+    background-color: #fff;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    padding: 10px 20px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    border-top-left-radius: 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.min-req tr{
+    height: 2em;
+    color: #8a6d3b;
+}
+#indiedn-icon {
+    height: 50px;
+    width: 95px;
+    overflow: hidden;
+    margin: 35px auto 0px auto;
+    background-image: url(../images/indiedb_default.png);
+    display: block;
+}
+#indiedn-icon:hover {
+    background-image: url(../images/indiedb_coloured.png);
+}
+.social-media-icons div a i {
+    color: #34495e;
+    margin-top: 25px;
+}
+.social-media-icons div a i.fa-facebook-official:hover{color: #3b5998;}
+.social-media-icons div a i.fa-twitter:hover{color: #00aced;}
+.social-media-icons div a i.fa-twitch:hover{color: #6441a5;}
+.social-media-icons div a i.fa-youtube:hover{color: #bb0000;}
+.social-media-icons div a i.fa-steam:hover{color: #1B2838;}
+#admin-login-form {
+    width: 150px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: -151px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
