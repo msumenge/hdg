@@ -25,6 +25,6 @@
     <script src="<?php echo base_url('js/main.js'); ?>"></script> 
     
     <!--Favicon-->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url('images/favicon.png'); ?>">
+    <link rel="icon" type="image/png" href="<?php echo base_url('images/item2.png'); ?>">
 </head>
 <body>
