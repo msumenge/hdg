@@ -11,7 +11,8 @@
 			<span class="icon-bar"></span>
 			</button>
 			<a class="navbar-brand" href="<?php echo base_url(); ?>">
-                <img alt="Brand" src="images/icon.png" style="width: auto; height: 20px;">
+                <!--img alt="Brand" src="images/icon.png" style="width: auto; height: 20px;"-->
+                HDG
             </a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->

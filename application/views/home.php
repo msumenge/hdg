@@ -46,9 +46,14 @@
             <h2 class="marg-top-100">Featured Game</h2>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4 marg-top-25">
-            <img class="dyadic-home-logo zoom-on-hover animate" src="<?php echo base_url('images/dyadic_logo.png'); ?>" alt="Dyadic">
+    <div class="row box-shadow featured-game marg-top-25">
+        <div class="col-md-4 text-center">
+            <a href="<?php echo base_url('games/dyadic'); ?>"><img class="dyadic-home-logo zoom-on-hover animate" src="<?php echo base_url('images/dyadic_logo.png'); ?>" alt="Dyadic"></a>
+        </div>
+        <div class="col-md-8 featured-game-desc">
+            In Dyadic, two players find themselves trapped in ancient ruins after discovering a rare and priceless artifact. Both of you want to be the one to escape ruins with the artifact, but you don't necessarily have enough equipment to do it on your own. Will both of you work together to try and solve the perilous puzzles that stand in your path? Or will you forsake each other to try and keep the treasure for yourselves? There’s only one way to find out… <a href="<?php echo base_url('games/dyadic'); ?>">read more</a>
+            <!--h3 class="text-center"><a href="<?php echo base_url('games/dyadic'); ?>">DOWNLOAD DEMO</a></h3-->
+            <div class="text-center marg-top-25"><a href="http://www.indiedb.com/games/dyadic/downloads/dyadic-demo-windows" title="Download Dyadic Demo (Windows) - Indie DB" target="_blank"><img src="http://button.indiedb.com/download/medium/90497.png" alt="Dyadic Demo (Windows)" /></a></div>
         </div>
     </div>
     

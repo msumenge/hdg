@@ -93,6 +93,10 @@ div, p {
 .border {
     border: 1px solid #ccc;
 }
+.box-shadow {
+    -webkit-box-shadow: 0 0 50px 0 ##858585;
+    box-shadow: 0 0 50px 0 ##858585;
+}
 
 .navbar.navbar-default {
     background-color: rgba(255, 255, 255, 1);
@@ -211,7 +215,7 @@ footer a {
 .social-media-icons div a i.fa-twitter:hover{color: #00aced;}
 .social-media-icons div a i.fa-twitch:hover{color: #6441a5;}
 .social-media-icons div a i.fa-youtube:hover{color: #bb0000;}
-.social-media-icons div a i.fa-steam:hover{color: #1B2838;}
+.social-media-icons div a i.fa-steam:hover{color: #000000;}
 #admin-login-form {
     width: 150px;
     height: auto;
@@ -230,12 +234,11 @@ footer a {
     font-family: font_three, Monaco, monospace;
     max-width: 760px;
 }
-.admin-blog-action {
-    display: none;
-    width: 150px;
-}
+.admin-blog-action,
 .admin-blog-action2 {
     display: none;
+    width: 150px;
+    margin: 10px 10px 10px 0px;
 }
 .admin-blog-loading {
     display: none;
@@ -252,8 +255,20 @@ footer a {
     max-width: 100%;
     font-family: font_three, Monaco, monospace;
 }
-
-
+.featured-game {
+    padding: 40px 25px;
+}
+.featured-game-desc {
+    padding-top: 25px;
+    padding-left: 70px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+@media screen and (min-width: 992px) {
+    .featured-game-desc {
+        padding-top: 0px;
+    }
+}
 
 
 
