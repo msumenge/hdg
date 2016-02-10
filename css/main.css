@@ -281,9 +281,12 @@ footer a:hover {
     width: 150px;
     height: auto;
     position: fixed;
-    top: 50px;
+    top: 51px;
     right: -151px;
-    z-index: 500;
+    z-index: 1030;
+}
+#login-link {
+    padding-right: 3px;
 }
 .admin-blog-title {
     cursor: pointer;
