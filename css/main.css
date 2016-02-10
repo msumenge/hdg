@@ -123,7 +123,7 @@ div, p {
 	transition: all 200ms ease;
 }
 #main-nav ul li:hover{
-    background: #FFE65A;
+    background: #FFA82A;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
@@ -133,7 +133,7 @@ div, p {
 }
 #main-nav ul li.dropdown.open a:hover, 
 #main-nav ul li.dropdown.open a:focus {
-    background: #FFE65A;
+    background: #FFA82A;
     color: #830000;
 }
 #main-nav ul li.dropdown ul.dropdown-menu {
@@ -180,6 +180,12 @@ footer a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     line-height: 1.8em;
+}
+.steam-icon{
+	color: #830000;
+}
+.steam-icon:hover{
+	color: #000;
 }
 #dyadic-gallery {
     max-width: 800px;

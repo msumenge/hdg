@@ -12,7 +12,7 @@
 			</button>
 			<a class="navbar-brand" href="<?php echo base_url(); ?>">
                 <!--img alt="Brand" src="images/icon.png" style="width: auto; height: 20px;"-->
-                HDG
+                Handsome Dragon Games
             </a>
 		</div>
 		<!-- Collect the nav links, forms, and other content for toggling -->

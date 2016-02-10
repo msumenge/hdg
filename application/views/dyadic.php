@@ -2,10 +2,10 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
             <img class="marg-top-50 marg-bottom-20" src="<?php echo base_url('images/dyadic_banner.png'); ?>" alt="Daydic" style="width: 100%; max-width: 700px;" />
-            <h4>Demo Available on Windows <i class="fa fa-windows"></i></h4>
+            <h4>Avaliable Feburary 26th, 2016 <i class="fa fa-windows"></i></h4>
             <h2 id="dyadic-download-link">
-                <a href="http://handsomedragongames.com/dyadicSrc/data/dyadic.demo.windows.zip" download target="_blank">
-                    Download now
+                <a href="http://store.steampowered.com/app/442140/" target="_blank">
+                    Buy Dyadic
                 </a>
             </h2>
         </div>
@@ -99,7 +99,7 @@
                     <table class="min-req fullwidth light-font">
                         <tr>
                             <td>OS</td>
-                            <td>: Windows 7</td>
+                            <td>: Windows 7 SP1+</td>
                         </tr>
                         <tr>
                             <td>CPU</td>
@@ -108,10 +108,6 @@
                         <tr>
                             <td>GPU</td>
                             <td>: Nvidia 260 GTS or Radeon HD 4850</td>
-                        </tr>
-                        <tr>
-                            <td>VRAM</td>
-                            <td>: 512 MB</td>
                         </tr>
                         <tr>
                             <td>HDD</td>

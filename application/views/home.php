@@ -48,14 +48,14 @@
     </div>
     <div class="row box-shadow featured-game marg-top-25">
         <div class="col-md-4 text-center">
-            <a href="<?php echo base_url('games/dyadic'); ?>"><img class="dyadic-home-logo zoom-on-hover animate" src="<?php echo base_url('images/dyadic_logo.png'); ?>" alt="Dyadic"></a>
+            <a href="<?php echo base_url('dyadic'); ?>"><img class="dyadic-home-logo zoom-on-hover animate" src="<?php echo base_url('images/dyadic_logo.png'); ?>" alt="Dyadic"></a>
         </div>
         <div class="col-md-8 featured-game-desc">
             In Dyadic, two players find themselves trapped in ancient ruins after discovering a rare and priceless artifact. Both of you want to be the one to escape ruins with the artifact, but you don't necessarily have enough equipment to do it on your own. Will both of you work together to try and solve the perilous puzzles that stand in your path? Or will you forsake each other to try and keep the treasure for yourselves? There’s only one way to find out… <a href="<?php echo base_url('games/dyadic'); ?>">read more</a>
-            <!--h3 class="text-center"><a href="<?php echo base_url('games/dyadic'); ?>">DOWNLOAD DEMO</a></h3-->
+            <!--h3 class="text-center"><a href="<?php echo base_url('dyadic'); ?>">DOWNLOAD DEMO</a></h3-->
             <div class="text-center marg-top-25">
-                <h3><a href="http://store.steampowered.com/app/442140/" class="no-underline" title="Dyadic Store" target="_blank" style="color: #830000;">
-                    <i class="fa fa-steam-square fa-2x" style="vertical-align: -10px;"></i> &nbsp;&nbsp; Steam - Dyadic Store
+                <h3><a href="http://store.steampowered.com/app/442140/" class="no-underline steam-icon" title="Dyadic Store" target="_blank">
+                    <i class="fa fa-steam-square fa-2x" style="vertical-align: -10px;"></i> &nbsp;&nbsp; Buy Dyadic
                 </a></h3>
             </div>
         </div>
