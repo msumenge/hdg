@@ -101,6 +101,36 @@ div, p {
 .navbar.navbar-default {
     background-color: rgba(255, 255, 255, 1);
 }
+#main-nav ul li{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+#main-nav ul li:hover{
+    background: #FFE65A;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+#main-nav ul li:hover a{
+    color: #830000;
+}
+#main-nav ul li.dropdown.open a:hover, 
+#main-nav ul li.dropdown.open a:focus {
+    background: #FFE65A;
+    color: #830000;
+}
+#main-nav ul li.dropdown ul.dropdown-menu {
+    padding: 0px;
+}
+#main-nav ul li.dropdown ul.dropdown-menu li a{
+    padding: 10px 20px;
+}
 .home-image {
     width: 100%;
     height: 100%;
@@ -119,12 +149,18 @@ div, p {
 }
 footer {
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 30px 20px 30px;
     background-color: #757575;
     margin-top: 80px;
 }
+footer h4 {
+    margin-bottom: 0px;
+}
 footer a {
     color: rgb(255,171,64);
+}
+footer a:hover {
+    text-decoration: none;
 }
 .dyadic-text {
     margin-top: 50px;
@@ -263,6 +299,9 @@ footer a {
     padding-left: 70px;
     font-size: 1.1em;
     line-height: 1.5em;
+}
+.author {
+    font-size: 0.8em;
 }
 @media screen and (min-width: 992px) {
     .featured-game-desc {

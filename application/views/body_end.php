@@ -1,5 +1,6 @@
     <footer>
-        <h4>&copy; <a href="http://handsomedragongames.com/">Handsome Dragon Games</a> 2015</h4>
+        <h4>&copy; <a href="http://handsomedragongames.com/">Handsome Dragon Games</a> 2016</h4>
+        <span class="author">by <a href="http://maryo.info">Maryo Sumenge</a></span>
     </footer>
     <script src="<?php echo base_url('js/bootstrap.min.js'); ?>"></script>
     <script>
