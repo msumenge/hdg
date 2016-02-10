@@ -35,9 +35,21 @@
 	<!-- /.container-fluid -->
 </nav>
 <div id="admin-login-form" class="animate">
+<?php
+    if(!isset($_SESSION['admin'])) {
+?>
     <form action="<?php echo base_url('admin/login'); ?>" method="post">
-        <input type="text" class="form-control" placeholder="Username" required />
-        <input type="password" class="form-control" placeholder="Password" required />
-        <input type="submit" class="btn btn-primary fullwidth" value="Submit">
+        <input type="text" name="user" class="form-control" placeholder="Username" required />
+        <input type="password" name="pass" class="form-control" placeholder="Password" required />
+        <input type="submit" class="btn btn-primary fullwidth" value="Log in">
     </form>
+<?php
+    }
+    else {
+?>
+    <a href="<?php echo base_url('admin'); ?>" class="btn btn-primary fullwidth">Admin Page</a>
+    <a href="<?php echo base_url('admin/logout'); ?>" class="btn btn-danger fullwidth">Log out</a>
+<?php
+    }
+?>
 </div>

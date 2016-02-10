@@ -6,6 +6,10 @@
     font-family: font_two;
     src: url(../fonts/VarelaRound-Regular.ttf);
 }
+@font-face {
+    font-family: font_three;
+    src: url(../fonts/Consolas.ttf);
+}
 * {
     box-sizing: border-box;
 }
@@ -214,6 +218,39 @@ footer a {
     position: fixed;
     top: 50px;
     right: -151px;
+    z-index: 500;
+}
+.admin-blog-title {
+    cursor: pointer;
+}
+.admin-blog-body {
+    display: none;
+    height: 300px;
+    padding: 10px;
+    font-family: font_three, Monaco, monospace;
+    max-width: 760px;
+}
+.admin-blog-action {
+    display: none;
+    width: 150px;
+}
+.admin-blog-action2 {
+    display: none;
+}
+.admin-blog-loading {
+    display: none;
+    font-size: 1.8em;
+    color: #e74c3c;
+}
+.admin-blog-notif {
+    padding: 5px 10px 0px 0px;
+}
+.blog-body-input {
+    height: 250px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    font-family: font_three, Monaco, monospace;
 }
 
 
