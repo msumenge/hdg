@@ -13,11 +13,15 @@
 * {
     box-sizing: border-box;
 }
-html, body {
-    color: #34495e;
-    font-family: font_two;
+html {
     width: 100%;
     height: 100%;
+}
+body {
+    color: #34495e;
+    font-family: font_two;
+    min-height: 100%;
+    position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: font_one;
@@ -97,6 +101,13 @@ div, p {
     -webkit-box-shadow: 0 0 50px 0 ##858585;
     box-shadow: 0 0 50px 0 ##858585;
 }
+.no-underline,
+.no-underline:active,
+.no-underline:focus,
+.no-underline:visited,
+.no-underline:hover {
+    text-decoration: none;
+}
 
 .navbar.navbar-default {
     background-color: rgba(255, 255, 255, 1);
@@ -148,10 +159,13 @@ div, p {
     height: 200px;
 }
 footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     color: #fff;
     padding: 10px 30px 20px 30px;
     background-color: #757575;
-    margin-top: 80px;
+    width: 100%;
 }
 footer h4 {
     margin-bottom: 0px;
@@ -232,7 +246,7 @@ footer a:hover {
     height: 2em;
     color: #8a6d3b;
 }
-#indiedn-icon {
+#indiedb-icon {
     height: 50px;
     width: 95px;
     overflow: hidden;
@@ -240,8 +254,19 @@ footer a:hover {
     background-image: url(../images/indiedb_default.png);
     display: block;
 }
-#indiedn-icon:hover {
+#indiedb-icon:hover {
     background-image: url(../images/indiedb_coloured.png);
+}
+#itchio-icon {
+    height: 70px;
+    width: 78px;
+    overflow: hidden;
+    margin: 25px auto 0px auto;
+    background-image: url(../images/itchio_default.png);
+    display: block;
+}
+#itchio-icon:hover {
+    background-image: url(../images/itchio_coloured.png);
 }
 .social-media-icons div a i {
     color: #34495e;

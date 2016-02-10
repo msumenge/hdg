@@ -8,21 +8,21 @@
         <div class="col-md-6">
             <div class="col-md-12 marg-top-25">
                 <h4>Full name *</h4>
-                <input type="text" class="form-control" required />
+                <input type="text" class="form-control" name="contact-name" required />
             </div>
             <div class="col-md-12 marg-top-15">
                 <h4>Email address *</h4>
-                <input type="email" class="form-control" required />
+                <input type="email" class="form-control" name="contact-email" required />
             </div>
             <div class="col-md-12 marg-top-15">
                 <h4>Phone</h4>
-                <input type="text" class="form-control" />
+                <input type="text" class="form-control" name="contact-phone" />
             </div>
         </div>
         <div class="col-md-6">
             <div class="col-md-12 marg-top-25">
-                <h4>Message</h4>
-                <textarea class="fullwidth" style="height: 155px; padding: 6px 12px; border: 1px solid #ccc; max-width: 100%;" placeholder="Message..."></textarea>
+                <h4>Message *</h4>
+                <textarea class="fullwidth" style="height: 155px; padding: 6px 12px; border: 1px solid #ccc; max-width: 100%;" placeholder="Message..." name="contact-message" required></textarea>
             </div>
             <div class="col-md-12 marg-top-15">
                 <input type="submit" class="btn btn-primary fullwidth" value="Submit">

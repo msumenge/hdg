@@ -35,10 +35,10 @@
             <a href="https://www.youtube.com/channel/UCMinVgVvNJyiSn6o668c9AQ" target="_blank"><i class="fa fa-youtube fa-5x"></i></a>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-4">
-            <a href="https://steamcommunity.com/id/HandsomeDragonGames/" target="_blank"><i class="fa fa-steam fa-5x"></i></a>
+            <a href="http://handsomedragongames.itch.io/" id="itchio-icon" class="bg-cover" target="_blank"></a>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-4">
-            <a href="http://www.indiedb.com/games/dyadic/" id="indiedn-icon" class="bg-cover" target="_blank"></a>
+            <a href="http://www.indiedb.com/games/dyadic/" id="indiedb-icon" class="bg-cover" target="_blank"></a>
         </div>
     </div>
     <div class="row">
@@ -53,7 +53,11 @@
         <div class="col-md-8 featured-game-desc">
             In Dyadic, two players find themselves trapped in ancient ruins after discovering a rare and priceless artifact. Both of you want to be the one to escape ruins with the artifact, but you don't necessarily have enough equipment to do it on your own. Will both of you work together to try and solve the perilous puzzles that stand in your path? Or will you forsake each other to try and keep the treasure for yourselves? There’s only one way to find out… <a href="<?php echo base_url('games/dyadic'); ?>">read more</a>
             <!--h3 class="text-center"><a href="<?php echo base_url('games/dyadic'); ?>">DOWNLOAD DEMO</a></h3-->
-            <div class="text-center marg-top-25"><a href="http://www.indiedb.com/games/dyadic/downloads/dyadic-demo-windows" title="Download Dyadic Demo (Windows) - Indie DB" target="_blank"><img src="http://button.indiedb.com/download/medium/90497.png" alt="Dyadic Demo (Windows)" /></a></div>
+            <div class="text-center marg-top-25">
+                <h3><a href="http://store.steampowered.com/app/442140/" class="no-underline" title="Dyadic Store" target="_blank" style="color: #830000;">
+                    <i class="fa fa-steam-square fa-2x" style="vertical-align: -10px;"></i> &nbsp;&nbsp; Steam - Dyadic Store
+                </a></h3>
+            </div>
         </div>
     </div>
     
