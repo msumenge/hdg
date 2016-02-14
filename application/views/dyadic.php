@@ -83,7 +83,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center font-1-3 dyadic-text">
-        Dyadic was greenlit on the 14th of August, 2015! We truly appreciate all your support and votes. You can check out the greenlight page <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">here</a>! It is also planned to be released through <a href="itch.io" target="_blank">itch.io</a> and Steam early 2016.
+        Dyadic was greenlit on the 14th of August, 2015! We truly appreciate all your support and votes. You can check out the greenlight page <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">here</a>! It will be released via <a href='http://store.steampowered.com/app/442140/'>Steam</a> on Feburary 26th.
             <br>
             <br>
             <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">
