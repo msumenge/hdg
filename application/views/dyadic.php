@@ -21,7 +21,7 @@
     <div class="row">
         <div class="col-md-12 text-center">
             <video id="dyadic-trailer" controls poster="<?php echo base_url('images/poster.png'); ?>">
-			<source src="<?php echo base_url('videos/demo_trailer.mp4'); ?>" type="video/mp4">
+			<source src="<?php echo base_url('videos/steam_trailer.webm'); ?>" type="video/webm">
                 Please <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank">download and install</a> Google Chrome browser to view this video.
             </video>
         </div>
