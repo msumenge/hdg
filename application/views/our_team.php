@@ -80,13 +80,13 @@
             <div class="col-md-4 text-center">
                 <div class="bg-cover profile-pict" style="background-image: url(<?php echo base_url('images/sam.jpg'); ?>);"></div>
                 
-               <h3>Samuel McLean</h3>
+               <h3>Sam McLean</h3>
                 <p>Audio</p>
             </div>
             <div class="col-md-8" style="padding-left: 15px;">
-                I’m responsible for all of the audio in our games. Sound effects, music, you name it! Brother, son, student, composer, performer, fan and games enthusiast. I love composing for games and movies and even just for the heck of it! In my life MIDI is the king and Komplete 9 Ultimate is my princess. Previous games I’ve worked on include Prosperity, Alight, and more!<br/>
+                Sam McLean is an Australian Composer and Audio Engineer recently graduating from SAE QANTM Brisbane. Born into a family of musicians, he is a multi instrumentalist, proficient in many styles of Guitar, Violin, Mandolin, Recorder, Bass, Drums, Vocals and enjoys creating music from instruments that he has built from scrap materials, like his MILO-Tin Banjo. With an eclectic taste and a strong interest in world music, Video Games are the perfect platform for him to express his creativity to its full potential. Sam has performed in Orchestras, Bands and Choirs and was the resident Recording and Mixing Engineer for the Queensland Wind Orchestra in 2015. An avid and enthusiastic gamer, Sam currently holds the world record on the Playstation Network for Geometry Wars - Dimensions Evolved, Level 40 - Eudialyte (Ultimate).<br/>
                 <br/>
-                You can find my blog <a href="https://sambomac.wordpress.com/" target="_blank">here</a>, and you can find my work <a href="https://soundcloud.com/samuel-mclean-2" target="_blank">here</a>. If you’d like to get in touch, e-mail me at <a href="mailto:sam.mclean@handsomedragongames.com">sam.mclean@handsomedragongames.com</a>
+                <a href='sammcleancomposer.com' target='_blank'>sammcleancomposer.com</a>
             </div>
         </div>
     </div>
