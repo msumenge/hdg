@@ -16,7 +16,7 @@
             <p class="font-1-3">
                 Our first major development is Dyadic, a co-op puzzle platformer. This was the game that brought us together and now that we’re no longer constrained by a brief, we’re turning it into the game it was truly meant to be!
                 <br/><br/>
-                Dyadic has been greenlit! Thankyou all for your votes! Click <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195">here</a> for the Greenlight Page.
+                Dyadic is now released and purchasable on <a href="http://store.steampowered.com/app/442140" target="_blank">Steam!
             </p>
         </div>
     </div>

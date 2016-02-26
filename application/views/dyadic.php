@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
             <img class="marg-top-50 marg-bottom-20" src="<?php echo base_url('images/dyadic_banner.png'); ?>" alt="Daydic" style="width: 100%; max-width: 700px;" />
-            <h4>Avaliable Feburary 26th, 2016 <i class="fa fa-windows"></i></h4>
+            <h4>Avaliable Now! <i class="fa fa-windows"></i></h4>
             <h2 id="dyadic-download-link">
                 <a href="http://store.steampowered.com/app/442140/" target="_blank">
                     Buy Dyadic
@@ -83,7 +83,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center font-1-3 dyadic-text">
-        Dyadic was greenlit on the 14th of August, 2015! We truly appreciate all your support and votes. You can check out the greenlight page <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">here</a>! It will be released via <a href='http://store.steampowered.com/app/442140/'>Steam</a> on Feburary 26th.
+        Dyadic was greenlit on the 14th of August, 2015 and release on the 26th Feburary, 2016. You can find it here on <a href='http://store.steampowered.com/app/442140/'>Steam</a>!
             <br>
             <br>
             <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=491366195" target="_blank">
