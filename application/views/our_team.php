@@ -86,7 +86,7 @@
             <div class="col-md-8" style="padding-left: 15px;">
                 Sam McLean is an Australian Composer and Audio Engineer recently graduating from SAE QANTM Brisbane. Born into a family of musicians, he is a multi instrumentalist, proficient in many styles of Guitar, Violin, Mandolin, Recorder, Bass, Drums, Vocals and enjoys creating music from instruments that he has built from scrap materials, like his MILO-Tin Banjo. With an eclectic taste and a strong interest in world music, Video Games are the perfect platform for him to express his creativity to its full potential. Sam has performed in Orchestras, Bands and Choirs and was the resident Recording and Mixing Engineer for the Queensland Wind Orchestra in 2015. An avid and enthusiastic gamer, Sam currently holds the world record on the Playstation Network for Geometry Wars - Dimensions Evolved, Level 40 - Eudialyte (Ultimate).<br/>
                 <br/>
-                <a href='sammcleancomposer.com' target='_blank'>sammcleancomposer.com</a>
+                <a href='http://www.sammcleancomposer.com' target='_blank'>sammcleancomposer.com</a>
             </div>
         </div>
     </div>
